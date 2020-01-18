@@ -1,0 +1,40 @@
+function arith (operator, num1 , num2)
+           { 
+            
+                 var k=0;
+                 if(operator =="ADD")
+                 {
+                  k=num1 + num2;
+
+                 }
+
+                 if(operator =="SUB")
+                 {
+                  k=num1 - num2;
+
+                 }
+
+                 if(operator =="MUL")
+                 {
+                  k=num1 * num2;
+
+                 }
+
+                 return k;
+
+                 
+
+             }// end function arith
+          
+             document.write("</br>");
+             document.write("</br>");
+             document.write(arith("ADD",5,10));
+
+             document.write("</br>");
+             document.write("</br>");
+             document.write(arith("MUL",5,10));
+
+
+             document.write("</br>");
+             document.write("</br>");
+             document.write(arith("SUB",5,10));
