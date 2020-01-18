@@ -1,0 +1,13 @@
+function Exam(score)
+
+{
+remark="";
+if (score>=90)
+remark="A";
+else if(score>=80 && score<=89)
+remark="B"
+else if (score>=70 && score<=79)
+remark= "C";
+else if(score<60)
+remark="F";
+return remark;
